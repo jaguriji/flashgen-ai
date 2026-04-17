@@ -107,13 +107,13 @@ Gradio GUI (navigate, reveal, export)
 
 ## 👥 Team Members
 
-| Member | Roll No | Role |
-|--------|---------|------|
-| Kartik Thakur | | LLM Integration & Prompt Engineering |
-| Aditya Thakur | | PDF Parsing & Text Processing |
-| Suryansh | | Gradio GUI Development |
-| Adarsh Thakur | | Notebook Documentation |
-| Akhilesh Jaguri | | PPT & GitHub Setup |
+| Member | Role |
+|--------|------|
+| Kartik Thakur | LLM Integration & Prompt Engineering |
+| Aditya Thakur | PDF Parsing & Text Processing |
+| Suryansh | Gradio GUI Development |
+| Adarsh Thakur | Notebook Documentation |
+| Akhilesh Jaguri | PPT & GitHub Setup |
 
 ---
 
