@@ -53,7 +53,13 @@ Click the badge below or upload `flashcard_chatbot_v2.ipynb` to [colab.research.
 3. Click **API Keys** → **Create API Key**
 4. Copy your key
 
-### Step 3 — Add Your API Key
+### Step 3 — Add Your API Key via Colab Secrets
+1. In Colab, click the key icon in the left sidebar
+2. Click "Add new secret"
+3. Name: GROQ_API KEY
+4. Value: paste your Groq API key
+5. Toggle "Notebook access" to ON
+6. Run the notebook - key is loaded automatically
 
 ### Step 4 — Run All Cells
 
@@ -113,7 +119,7 @@ Gradio GUI (navigate, reveal, export)
 | Aditya Thakur | PDF Parsing & Text Processing |
 | Suryansh | Gradio GUI Development |
 | Adarsh Thakur | Notebook Documentation |
-| Akhilesh Jaguri | PPT & GitHub Setup |
+| Akhilesh Jaguri | Bug fixes & GitHub Setup |
 
 ---
 
@@ -133,11 +139,9 @@ pip install gradio==3.50.2 groq PyMuPDF
 ---
 
 ## 🔑 Note on API Key
-
-Never commit your real API key to GitHub. Replace it with a placeholder before pushing:
-```python
-GROQ_API_KEY = "your-groq-api-key-here"
-```
+This project uses Colab Secrets to store the API key securely. Never hardcode your API
+key directly in the notebook. Always use userdata.get('GROQ_API_KEY' ) to access it
+safely.
 
 ---
 
